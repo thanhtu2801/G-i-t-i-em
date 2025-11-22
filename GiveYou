@@ -1,1 +1,87 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Ngỏ Từ Pam Tsu</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: white; 
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 90%;
+            text-align: center;
+            border: none;
+            padding: 0;
+        }
+
+        .image-wrapper {
+            position: relative;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 2.5vw;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8), -1px -1px 3px rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            white-space: nowrap;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 15px; 
+            font-style: italic;
+            font-size: 1.2vw;
+            color: #555;
+            font-family: 'Times New Roman', serif;
+            padding-right: 5px; 
+        }
+
+        @media (max-width: 600px) {
+            .text-overlay {
+                font-size: 4vw;
+            }
+            .signature {
+                font-size: 2.5vw;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="tải xuống.jpg" alt="Ảnh cầu hôn" class="main-image">
+            <div class="text-overlay">
+                Em có thể cho anh 1 cơ hội đến bên em được không
+            </div>
+        </div>
+        <div class="signature">
+            Pam Tsu - Phạm Thanh Tú
+        </div>
+    </div>
+</body>
+</html>
